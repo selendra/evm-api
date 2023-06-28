@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "lib": ["es2020"],
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "strictNullChecks": false,
+      "noImplicitAny": false,
+      "target": "es2020",
+      "skipLibCheck": true,
+      "strict": true,
+      "allowJs": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "declaration": true,
+      "resolveJsonModule": true,
+      "baseUrl": ".",
+      "composite": true,
+    },
+    "ts-node": {
+      "transpileOnly": true,
+      "projectReferences": true
+    }
+  }
