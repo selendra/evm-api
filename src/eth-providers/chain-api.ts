@@ -4,7 +4,7 @@ import {
   signedExtensions as selendraSignedExtensions,
   types as selendraTypes,
   typesAlias as selendraTypesAlias,
-} from '../api/type';
+} from '../type/type';
 import type { ApiOptions } from '@polkadot/api/types';
 
 const TYPES = {

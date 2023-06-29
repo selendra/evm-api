@@ -1,6 +1,6 @@
 import { ApiPromise, WsProvider } from '@polkadot/api';
 import { BaseProvider, BaseProviderOptions } from './base-provider';
-import { options } from '../api';
+import { options } from '../type';
 import { runtimePatch } from './utils/temp-runtime-patch';
 
 export class EvmRpcProvider extends BaseProvider {

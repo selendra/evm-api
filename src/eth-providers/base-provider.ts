@@ -19,7 +19,7 @@ import { AsyncAction } from 'rxjs/internal/scheduler/AsyncAction';
 import { AsyncScheduler } from 'rxjs/internal/scheduler/AsyncScheduler';
 import { BigNumber, BigNumberish, Wallet } from 'ethers';
 import { Deferrable, defineReadOnly, resolveProperties } from '@ethersproject/properties';
-import { EvmAccountInfo, EvmContractInfo } from '../api/type/interfaces';
+import { EvmAccountInfo, EvmContractInfo } from '../type/type/interfaces';
 import { Formatter } from '@ethersproject/providers';
 import { FrameSystemAccountInfo } from '@polkadot/types/lookup';
 import { Logger } from '@ethersproject/logger';
